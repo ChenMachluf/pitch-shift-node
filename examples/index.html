@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/pitch-shifter.css" />
+    <link rel="stylesheet" href="css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="css/jquery.ui.slider.min.css" />
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="example.build.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="sliderContainer">
+            <div class="sliderLabel">Pitch ratio</div>
+            <div id="pitchRatioSlider"></div>
+            <div id="pitchRatioDisplay" class="sliderDisplay"></div>
+        </div>
+
+        <div class="sliderContainer">
+            <div class="sliderLabel">PlaybackRate</div>
+            <div id="playbackRateSlider"></div>
+            <div id="playbackRateDisplay" class="sliderDisplay"></div>
+        </div>
+
+        <div class="sliderContainer">
+            <div class="sliderLabel">Visualisation</div>
+            <div id="audioVisualisationSlider"></div>
+            <div id="audioVisualisationDisplay" class="sliderDisplay"></div>
+        </div>
+
+        <canvas width="512px" height="240px"></canvas>
+
+    </div>
+</body>
+
+</html>
