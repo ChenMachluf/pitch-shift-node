@@ -6,13 +6,13 @@ Living exmaple can be find [here](http://chenmachluf.github.io/pitch-shift-node/
 
 # Install
 ```
-npm install pitchshiftnode
+npm install pitch-shift-node
 ```
 
 #API
 
 ```javascript
-var PitchShiftNode = require('pitchshiftnode')
+var PitchShiftNode = require('pitch-shift-node')
 ```
 
 ##PitchShiftNode(audioContext,pitchShift,options)
