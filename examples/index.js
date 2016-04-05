@@ -1,4 +1,4 @@
-var pitchShiftNode = require('../pitchShiftNode');
+var pitchShiftNode = require('../pitch-shift-node');
 
 window.requestAnimFrame = (function() {
 

@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/ChenMachluf/pitch-shift-node#readme",
   "dependencies": {
-    "pitch-shift": "0.0.0"
+    "pitch-shift": "0.0.0",
+    "typedarray-pool": "^1.1.0"
   },
   "devDependencies": {
     "http-server": "^0.9.0",
